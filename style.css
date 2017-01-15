@@ -19,7 +19,8 @@ body {
 .logo img{
   position: absolute;
   width: 150px;
-  top: 40%;
+  top: 50%;
+  transform: translateY(-50%);
   left: 5%;
 }
 
@@ -47,6 +48,11 @@ body {
 }
 
 .header-list > a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-list a {
   text-decoration: none;
   color: white;
 }
@@ -98,6 +104,11 @@ margin-right: 425px;
   margin-left: 50%;
   bottom: 5%;
   transform: translateX(-50%);
+}
+
+.banner-button a {
+  text-decoration: none;
+  color: white;
 }
 
 .main-description {
@@ -221,6 +232,11 @@ margin-right: 425px;
   font-size: 16px;
 }
 
+.contact-button a {
+  text-decoration: none;
+  color: white;
+}
+
 .bottom-images > h1 {
   position: relative;
   text-align: center;
@@ -269,6 +285,11 @@ margin-right: 425px;
   border-radius: 50px;
 }
 
+.email a {
+  text-decoration: none;
+  color: white;
+}
+
 /*.contact-info {
   display: inline-block;
   float: left;
@@ -315,3 +336,19 @@ margin-right: 425px;
   left: 20px;
   margin: 0;
 }
+
+.footer a {
+  text-decoration: none;
+  color: #00FF00;
+}
+
+.chat {
+  position: fixed;
+  background: #00FF00;
+  color: white;
+  width: 150px;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 4px 2px grey;
